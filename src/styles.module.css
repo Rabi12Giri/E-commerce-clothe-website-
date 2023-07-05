@@ -1,0 +1,51 @@
+.productSection div {
+  width: 25%;
+  height: 250px;
+}
+
+.productSection div:nth-child(1) {
+  background-image: url("Assets/Images/women.jpg");
+  background-size: 100%;
+}
+
+.productSection div:nth-child(2) {
+  background-image: url("Assets/Images/kids.jpg");
+  background-size: 120%;
+}
+
+.productSection div:nth-child(3) {
+  background-image: url("Assets/Images/men.jpg");
+  background-size: 100%;
+}
+
+.productSection div:nth-child(4) {
+  background-image: url("Assets/Images/unisex.jpg");
+  background-size: 100%;
+}
+
+.productSection div:nth-child(5) {
+  background-image: url("Assets/Images/sneakers.jpg");
+  background-size: 110%;
+}
+
+.productSection div:nth-child(6) {
+  background-image: url("Assets/Images/summer.jpg");
+  background-size: 110%;
+}
+
+.shopNowButton {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  background: #292929;
+  top: 80%;
+  position: absolute;
+  left: 50%;
+}
+
+.shop {
+  background-color: orange;
+}

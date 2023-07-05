@@ -1,0 +1,98 @@
+.image-background-desc button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.image-background-desc button {
+  display: none;
+}
+
+.image-background-desc:hover button {
+  display: block;
+}
+
+.add-to-cart-button {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart-button button {
+  padding: 8px 16px;
+  background-color: #292929;
+  color: white;
+  border: 0;
+  position: absolute;
+  border-radius: 12px;
+  bottom: 100px;
+  display: none;
+}
+
+.product-view:hover button {
+  display: block;
+}
+
+.product-view {
+  cursor: pointer;
+}
+
+.product-view svg {
+  color: rgb(205, 205, 108);
+}
+
+.search-bar svg {
+  cursor: pointer;
+}
+
+.product-description_ {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* footer */
+.footer h1 {
+  color: #f87171;
+}
+
+.subscribe-button button:hover {
+  background-color: white;
+  color: #292929;
+  transition: 0.3s ease;
+}
+
+/* product description.js page */
+
+.product-descriptions_ > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.product-details_ {
+  width: 40%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.for-image {
+  width: 40%;
+  display: flex;
+}
+
+.for-image img {
+  width: 250px;
+}
+.product-image_ {
+  position: relative;
+  object-fit: cover;
+}
+
+.product-image_ img {
+  width: 220px;
+  height: 280px;
+  position: relative;
+  object-fit: cover;
+}
